@@ -1,5 +1,5 @@
 package zooAnimales;
-import Zona;
+import Gestion.Zona;
 
 public class Animal 
 {
