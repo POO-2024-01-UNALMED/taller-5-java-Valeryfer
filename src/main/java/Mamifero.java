@@ -17,6 +17,7 @@ public class Mamifero extends Animal
         super(nombre, edad, habitat, genero);
         this.pelaje = pelaje;
         this.patas = patas;
+        this,listado = "Mamifero";
     }
 
     public int cantidadMamiferos()
@@ -54,5 +55,10 @@ public class Mamifero extends Animal
     public String getPatas()
     {
         return this.patas;
+    }
+
+    public Mamifero[] getListado()
+    {
+        return this.listado;
     }
 }

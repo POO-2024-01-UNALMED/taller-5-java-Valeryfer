@@ -22,7 +22,7 @@ public class Zoologico
     }
     public int cantidadTotalAnimales() 
     {
-        return Zona.getAnimales;
+        return this.zonas.getAnimales;
     }
 
     public void setNombre(String nombre)

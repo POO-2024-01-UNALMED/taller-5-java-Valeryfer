@@ -1,4 +1,5 @@
 package zooAnimales;
+import Zona;
 
 public class Animal 
 {
@@ -13,7 +14,7 @@ public class Animal
     {
     }
 
-    public Animal(String nombre, int edad, String habitat, Sting genero) 
+    public Animal(String nombre, int edad, String habitat, String genero) 
     {
         this.nombre = nombre;
         this.edad = edad;
@@ -29,7 +30,7 @@ public class Animal
 
     public String totalPorTipo() 
     {
-        return "Mamiferos: " + Mamifero.listado.size() + "\nAves: " + Ave.listado.size() + "\nReptiles: " + Reptiles.listado.size() + "\nPeces: " + Pez.listado.size() + "\nAnfibios: " + Anfibio.listado.size();
+        return "Mamiferos: " + Mamifero.getListado.size() + "\nAves: " + Ave.listado.size() + "\nReptiles: " + Reptiles.listado.size() + "\nPeces: " + Pez.listado.size() + "\nAnfibios: " + Anfibio.listado.size();
     }
 
     @Override
