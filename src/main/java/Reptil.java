@@ -3,7 +3,7 @@ package zooAnimales;
 public class Reptil extends Animal
 {
     private Reptil[] listado;
-    public int static int iguanas = 0;
+    public static int iguanas = 0;
     public static int serpientes = 0;
     private String colorEscamas;
     private int largoCola;
@@ -16,7 +16,7 @@ public class Reptil extends Animal
     {
         super(nombre, edad, habitat, genero);
         this.colorEscamas = colorEscamas;
-        this.largoCola = largoCola
+        this.largoCola = largoCola;
     }
 
     public int cantidadReptiles() 
@@ -27,19 +27,19 @@ public class Reptil extends Animal
     @Override
     public String movimiento() 
     {
-        return "reptar"
+        return "reptar";
     }
 
     public void crearIguana() 
     {
-        Reptil R1 = Reptil(colorEscamas = "verde", largoCola = 3, habitat = "humedal" )
+        Reptil R1 = Reptil(colorEscamas = "verde", largoCola = 3, habitat = "humedal");
         iguanas++;
     }
 
     public void crearSerpiente() 
     {
         serpientes++;
-        Reptil R2 = Reptil(colorEscamas = "blanco", largoCola = 1, habitat = "jungla" )
+        Reptil R2 = Reptil(colorEscamas = "blanco", largoCola = 1, habitat = "jungla");
 
     }
 

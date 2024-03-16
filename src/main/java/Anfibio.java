@@ -28,19 +28,19 @@ public class Anfibio extends Animal
     @Override
     public void movimiento() 
     {
-        return "saltar"
+        return "saltar";
     }
 
     public void crearRana() 
     {
         ranas++;
-        Anfibio An1 = Anfibio (colorPiel = "rojo", venenoso = true, habitat = "selva")
+        Anfibio An1 = Anfibio (colorPiel = "rojo", venenoso = true, habitat = "selva");
     }
 
     public void crearSalamandra() 
     {
         salamandras++;
-        Anfibio An2 = Anfibio (colorPiel = "negro y amarillo", venenoso = false, habitat = "selva")
+        Anfibio An2 = Anfibio (colorPiel = "negro y amarillo", venenoso = false, habitat = "selva");
     }
 
     public void setColorPiel(String colorPiel)

@@ -10,7 +10,7 @@ public class Zona
     {
     }
 
-    public Zona (String nombre, Zoologico[1] zoo)
+    public Zona (String nombre, Zoologico[] zoo)
     {
         this.nombre = nombre;
         this.zoo = zoo;
@@ -23,7 +23,7 @@ public class Zona
 
     public int cantidadAnimales()
     {
-        return this.animales
+        return this.animales;
     }
 
     public void setNombre(String nombre)

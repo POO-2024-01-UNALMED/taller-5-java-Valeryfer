@@ -19,25 +19,25 @@ public class Ave extends Animal
 
     public int cantidadAves()
     {
-        return halcones + aguilas
+        return halcones + aguilas;
     }
     
     @Override
     public String movimiento()
     {
-        return "volar"
+        return "volar";
     }
 
     public void crearHalcon()
     {
         halcones++;
-        Ave A1 = Ave(colorPlumas = "cafe glorioso", habitat = "montanas" )
+        Ave A1 = Ave(colorPlumas = "cafe glorioso", habitat = "montanas");
     }
 
     public void crearAguila()
     {
         aguilas++;
-                Ave A1 = Ave(colorPlumas = "blanco y amarillo", habitat = "montanas" )
+                Ave A1 = Ave(colorPlumas = "blanco y amarillo", habitat = "montanas");
     }
 
     public void setColorPlumas(String colorPlumas)

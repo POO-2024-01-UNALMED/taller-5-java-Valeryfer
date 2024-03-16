@@ -26,13 +26,13 @@ public class Mamifero extends Animal
 
     public void crearCaballo()
     {
-        Mamifero m1 = Mamifero(pelaje = true, patas = 4, habitat = "pradera") 
+        Mamifero m1 = Mamifero(pelaje = true, patas = 4, habitat = "pradera");
         caballos++;
     }
 
     public void crearLeon()
     {
-        Mamifero m2 = Mamifero(pelaje = true, patas = 4, habitat = "selva")
+        Mamifero m2 = Mamifero(pelaje = true, patas = 4, habitat = "selva");
         leones++;
     }
 

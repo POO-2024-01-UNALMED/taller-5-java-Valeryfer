@@ -4,7 +4,7 @@ public class Pez extends Animal
 {
     private Pez[] listado;
     public static int salmones = 0;
-    public static int bacalaos = 0:
+    public static int bacalaos = 0;
     private String colorEscamas;
     private int cantidadAletas;
 
@@ -33,13 +33,13 @@ public class Pez extends Animal
     public void crearSalmon() 
     {
         salmones++;
-        Pez p1 = Pez(colorEscamas = "rojo", cantidadAletas = 6, habitat = "oceano")
+        Pez p1 = Pez(colorEscamas = "rojo", cantidadAletas = 6, habitat = "oceano");
     }
 
     public void crearBacalao() 
     {
         bacalaos++;
-        Pez p2 = Pez(colorEscamas = "gris", cantidadAletas = 6, habitat = "oceano")
+        Pez p2 = Pez(colorEscamas = "gris", cantidadAletas = 6, habitat = "oceano");
     }
 
     public void setColorEscamas(String colorEscamas)

@@ -2,7 +2,7 @@ package zooAnimales;
 
 public class Animal 
 {
-    private int totalAnimales;
+    private static int totalAnimales = 0;
     private String nombre;
     private int edad;
     private String habitat;
@@ -19,12 +19,12 @@ public class Animal
         this.edad = edad;
         this.habitat = habitat;
         this.genero = genero;
-        totalAnimales++1;
+        totalAnimales++;
     }
 
     public String movimiento()
     {
-        return "desplazarse"
+        return "desplazarse";
     }
 
     public String totalPorTipo() 
@@ -35,7 +35,7 @@ public class Animal
     @Override
     public String toString() 
     {
-        if this.zona == (null || None)
+        if (this.zona == (null || None))
         {
             return "Mi nombre es " + this.nombre + "tengo una edad de " + this.edad + ", habito en" + this.habitat + "y mi genero es " + genero;
         }
@@ -49,7 +49,7 @@ public class Animal
     {
         this.nombre = nombre;
     }
-    
+
     public void setEdad(String edad)
     {
         this.edad = edad;
