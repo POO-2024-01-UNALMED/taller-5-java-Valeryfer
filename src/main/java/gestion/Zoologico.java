@@ -3,10 +3,10 @@ package gestion;
 public class Zoologico {
     private String nombre;
     private String ubicacion;
-    private ArrayList<Zona> zonas=new ArrayList<>();;
+    private ArrayList<Zona> zonas = new ArrayList<>();
 
     public Zoologico() {
-        this(null,null);
+        this(null, null);
     }
 
     public Zoologico (String nombre, String ubicacion) {
@@ -34,7 +34,7 @@ public class Zoologico {
         this.ubicacion = ubicacion;
     }
 
-    public void setZona(ArrayList<Zona> zonas) {
+    public void setZonas(ArrayList<Zona> zonas) {
         this.zonas = zonas;
     }
 

@@ -1,7 +1,7 @@
 package zooAnimales;
 
 public class Mamifero extends Animal {
-    private static Arraylist<Mamifero> listado = new Arraylist<>();
+    private static ArrayList<Mamifero> listado = new ArrayList<>();
     public static int caballos = 0;
     public static int leones = 0;
     private boolean pelaje;
@@ -50,7 +50,7 @@ public class Mamifero extends Animal {
         this.patas = patas;
     }
 
-    public String getPelaje() {
+    public boolean getPelaje() {
         return pelaje;
     }
 

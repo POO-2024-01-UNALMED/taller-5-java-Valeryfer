@@ -1,7 +1,7 @@
 package zooAnimales;
 
 public class Reptil extends Animal {
-    private static Arraylist<Reptil> listado = new Arraylist<>();
+    private static ArrayList<Reptil> listado = new ArrayList<>();
     public static int iguanas = 0;
     public static int serpientes = 0;
     private String colorEscamas;
@@ -39,7 +39,7 @@ public class Reptil extends Animal {
 		return Reptil;
     }
 
-    public static void setListado(Arraylist<Reptil> listado) {
+    public static void setListado(ArrayList<Reptil> listado) {
         Reptil.listado = listado;
     }
     public void setColorEscamas(String colorEscamas) {

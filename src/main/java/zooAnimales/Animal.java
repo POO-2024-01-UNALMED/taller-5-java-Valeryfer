@@ -47,7 +47,7 @@ public class Animal {
     //Getters y Setters
 
     public static int setTotalAnimales(int totalAnimales) {
-        animal.totalAnimales = totalAnimales;
+        Animal.totalAnimales = totalAnimales;
     }
     
     public void setNombre(String nombre) {
