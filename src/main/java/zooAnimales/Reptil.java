@@ -39,7 +39,7 @@ public class Reptil extends Animal {
 		return Reptil;
     }
 
-    public static void setListado(Arraylist<Reptil>, listado) {
+    public static void setListado(Arraylist<Reptil> listado) {
         Reptil.listado = listado;
     }
     public void setColorEscamas(String colorEscamas) {
